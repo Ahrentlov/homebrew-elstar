@@ -7,7 +7,7 @@ cask "elstar" do
   desc "iOS Simulator development & automation toolkit"
   homepage "https://elstar.dev"
 
-  depends_on macos: ">= :sequoia" # macOS 15+
+  depends_on macos: :sequoia # macOS 15+
 
   binary "elstar"
 
